@@ -54,7 +54,7 @@ body{
 }
 
 .about{
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 .about > .about-content{
@@ -78,6 +78,88 @@ body{
 .about > .about-content > .about-content-imageholder > .blender-image{
     padding-left: 220px;
 }
+
+
+.skills >.skill-chart{
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+.skills >.skill-chart > .skill-chart-expert{
+    border-bottom: solid;
+    display: flex;
+}
+
+.skills >.skill-chart > .skill-chart-advanced{
+    border-bottom: solid;
+    display: flex;
+}
+.skills >.skill-chart > .skill-chart-intermediate{
+    border-bottom: solid;
+    display: flex;
+}
+.skills >.skill-chart > .skill-chart-elementary{
+    border-bottom: solid;
+    display: flex;
+}
+.skills >.skill-chart > .skill-chart-beginer{
+    border-bottom: solid;
+    display: flex;
+}
+.skills >.skill-chart > .skill-chart-stuff{
+    display: flex;
+    padding-left: 260px;
+}
+
+.skills >.skill-chart > .skill-chart-intermediate > .arrow1{
+    padding-left: 120px;
+}
+.skills >.skill-chart > .skill-chart-intermediate > .arrow2{
+    padding-left: 525px;
+}
+.skills >.skill-chart > .skill-chart-beginer > .arrow{
+    padding-left: 235px;
+}
+.skills >.skill-chart > .skill-chart-elementary > .arrow1{
+    padding-left: 405px;
+}
+.skills >.skill-chart > .skill-chart-elementary > .arrow2{
+    padding-left: 115px;
+}
+
+
+
+
+.skills >.skill-chart > .skill-chart-stuff > .csharp{
+    padding-left: 85px;
+}
+
+.skills >.skill-chart > .skill-chart-stuff > .html{
+    padding-left: 85px;
+}
+
+.skills >.skill-chart > .skill-chart-stuff > .css{
+    padding-left: 85px;
+}
+
+.skills >.skill-chart > .skill-chart-stuff > .blender{
+    padding-left: 85px;
+}
+
+.skills >.skill-chart > .skill-chart-stuff > .typescript{
+    padding-left: 85px;
+}
+
+.skills >.skill-chart > .skill-chart-stuff > .lua{
+    padding-left: 85px;
+}
+
+.skills >.skill-chart > .skill-chart-stuff > .placeholder{
+    padding-left: 85px;
+}
+
 
 /*footer styles*/
 .footer {
