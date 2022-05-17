@@ -6,37 +6,22 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr;
+
 }
 
 /*Nav Styles*/
 
 
-.placeThrower{
-    background-color: black;
-}
+
 
 .nav-wrapper{
+    right: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 15px;
-}
-
-.left-side{
-    display: flex;
-}
-
-.right-side{
-    display: flex;
-}
-
-.nav-wrapper > .left-side > div{
-    margin: 10px;
-    font-size: 1em;
-}
-
-.nav-wrapper > .right-side > div{
-    margin: 10px;
-    font-size: 1em;
 }
 
 
@@ -53,28 +38,59 @@ body{
 }
 
 .brand:hover{
-    border-bottom: 2px solid #fadb4f;;
+    border-bottom: 1px solid black;;
 }
 
 
-.nav-link-wrapper{
-    height: 15px;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.5s;
-}
-
-.nav-link-wrapper a{
-    color: #fadb4f;;
-    text-decoration:  none;
-    transition: color 0.5s;
-}
-
-.nav-link-wrapper:hover{
-    border-bottom: 2px solid #fadb4f;;
-}
-
-/*Test styles*/
+/*body styles*/
 .portfolio-items-wrapper{
     display: grid;
     grid-template-columns: 256px 256px 256px 256px 256px 256px;
+}
+
+.start{
+    padding-top: 550px;
+    padding-left: 150px;
+}
+
+.about{
+    padding-bottom: 200px;
+}
+
+.about > .about-content{
+    padding-left: 200px;
+    display: flex;
+}
+
+
+.about > .about-content > .about-content-imageholder > .unity-image{
+    padding-left: 250px;
+}
+
+.about > .about-content > .about-content-imageholder > .css-image{
+    padding-left: 150px;
+}
+
+.about > .about-content > .about-content-imageholder > .csharp-image{
+    padding-left: 75px;
+}
+
+.about > .about-content > .about-content-imageholder > .blender-image{
+    padding-left: 220px;
+}
+
+/*footer styles*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fadb4f;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    padding-right: 5px;
 }
