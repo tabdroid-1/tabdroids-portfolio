@@ -9,9 +9,7 @@ body{
 }
 
 /*Nav Styles*/
-.placeHolder{
-    background-color: #f6dd68;
-}
+
 
 .placeThrower{
     background-color: black;
@@ -27,17 +25,20 @@ body{
     display: flex;
 }
 
+.right-side{
+    display: flex;
+}
+
 .nav-wrapper > .left-side > div{
     margin: 10px;
     font-size: 1em;
-    text-transform: uppercase;
 }
 
 .nav-wrapper > .right-side > div{
     margin: 10px;
     font-size: 1em;
-    text-transform: uppercase;
 }
+
 
 .brand{
     height: 15px;
@@ -46,18 +47,15 @@ body{
 }
 
 .brand a{
-    color: #808080;
+    color: #fadb4f;;
     text-decoration:  none;
     transition: color 0.5s;
 }
 
 .brand:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #fadb4f;;
 }
 
-.brand a:hover{
-    color: black;
-}
 
 .nav-link-wrapper{
     height: 15px;
@@ -66,17 +64,13 @@ body{
 }
 
 .nav-link-wrapper a{
-    color: #808080;
+    color: #fadb4f;;
     text-decoration:  none;
     transition: color 0.5s;
 }
 
 .nav-link-wrapper:hover{
-    border-bottom: 2px solid black;
-}
-
-.nav-link-wrapper a:hover{
-    color: black;
+    border-bottom: 2px solid #fadb4f;;
 }
 
 /*Test styles*/
