@@ -11,6 +11,9 @@ body{
 
 /*Nav Styles*/
 
+.cat{
+    padding-left: 900px;
+}
 
 
 
@@ -38,18 +41,13 @@ body{
 }
 
 .brand:hover{
-    border-bottom: 1px solid black;;
+    border-bottom: 0.5px solid black;;
 }
 
 
 /*body styles*/
-.portfolio-items-wrapper{
-    display: grid;
-    grid-template-columns: 256px 256px 256px 256px 256px 256px;
-}
-
 .start{
-    padding-top: 550px;
+    padding-top: 50px;
     padding-left: 150px;
 }
 
@@ -158,6 +156,22 @@ body{
 
 .skills >.skill-chart > .skill-chart-stuff > .placeholder{
     padding-left: 85px;
+}
+
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.projects-content > .projects > .behind-the-bars{
+    justify-content: center;
+}
+
+.projects-content > .projects > .behind-the-bars > .image-holder{
+    border: #fadb4f 1px;
 }
 
 
