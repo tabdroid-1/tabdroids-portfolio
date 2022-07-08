@@ -1,0 +1,62 @@
+/*Master Style*/
+body{
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+/*Nav Styles*/
+
+.link-container{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.nav-wrapper{
+    right: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.brand{
+    height: 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.brand a{
+    color: #fadb4f;;
+    text-decoration:  none;
+    transition: color 0.5s;
+}
+
+.brand:hover{
+    border-bottom: 0.5px solid black;;
+}
+
+
+
+/*footer styles*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fadb4f;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    padding-right: 5px;
+}

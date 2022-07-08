@@ -12,7 +12,8 @@ body{
 /*Nav Styles*/
 
 .cat{
-    padding-left: 900px;
+    padding-top: 55px;
+    padding-left: 800px;
 }
 
 
@@ -161,17 +162,18 @@ body{
 
 .projects{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 400px 400px 400px 400px;
     padding-bottom: 50px;
     padding-left: 50px;
 }
 
+/*.projects-content{
+    justify-content: center;
+    display: flex;
+}*/
+
 .projects-content > .projects > .behind-the-bars{
     justify-content: center;
-}
-
-.projects-content > .projects > .behind-the-bars > .image-holder{
-    border: #fadb4f 1px;
 }
 
 
