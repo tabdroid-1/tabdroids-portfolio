@@ -163,7 +163,7 @@ body{
 .projects{
     display: grid;
     grid-template-columns: 400px 400px 400px 400px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-left: 50px;
 }
 
